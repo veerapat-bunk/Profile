@@ -55,3 +55,11 @@
     margin-block-end: 0 auto;
     background-color:rgb(170, 144, 106);
 }
+.line-box{
+    margin-top: 53px;
+    padding: 20px 100px;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(255, 255, 255);
+    list-style-type: none;
+}
