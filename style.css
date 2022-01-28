@@ -14,6 +14,7 @@
 .card{
     display: flex;
     flex-wrap: wrap;
+    
 }
 .card-left{
     margin: 0 auto;
@@ -22,20 +23,22 @@
     text-align: center;
     background-color: #f4ece6;
     box-shadow: black 2px 10px 100px -40px;
+    border-radius: 3%;
 }
 .set-img{
-    width: 220px;
-    height: 220px;
+    width: 400px;
+    height: 270px;
     overflow: hidden;
     border-radius: 100%;
-    margin: 0 auto 34px auto;
+    margin: 0 auto 37px auto;
 }
 .img{
     width:100%;
+    height:100%;
 }
 .name{
     font-weight: 700;
-    font-size: 27px;
+    font-size: 32px;
     color: #db894a;
 }
 .underline{
@@ -82,6 +85,7 @@
     padding-right: 20px;
     width: 480px;
     background-color: #fff;
+    border-radius: 3%;
 }
 .button{
     width:130px;
@@ -114,4 +118,15 @@
     background-color: rgb(120,2,225) ;
     color: #fff;
     border: 0.12rem solid rgb(120,2,225);
+}
+.line-box_r{
+    margin-top: 120px;
+    margin-block-end: 0 auto;
+    background-color:#fff;
+}
+.line-box_r{
+    margin-top: 42.6px;
+    padding: 20px 100px;
+    justify-content: space-around;
+    list-style-type: none;
 }
