@@ -75,3 +75,43 @@
     font-size: 17px;
     font-weight: 300;
 }
+.card-right{
+    margin: 0 auto;
+    padding-top: 34px;
+    padding-left: 30px;
+    padding-right: 20px;
+    width:480;
+    background-color: #fff;
+}
+.button{
+    width:130px;
+    height: 35px;
+    background: none;
+    border-radius: 24px;
+    font-weight: 600;
+    font-size: 14px;
+    margin-top: 38px;
+    transition: 0.5s all;
+    cursor: pointer;
+}
+.button:hover{
+    background-color: rgb(120,2,225) ;
+    color: #fff;
+    border: 0.12rem solid rgb(120,2,225);
+}
+.button_active{
+    width:130px;
+    height: 35px;
+    background: none;
+    border-radius: 24px;
+    font-weight: 600;
+    font-size: 14px;
+    margin-top: 38px;
+    transition: 0.5s all;
+    cursor: pointer;
+}
+.button_active:hover{
+    background-color: rgb(120,2,225) ;
+    color: #fff;
+    border: 0.12rem solid rgb(120,2,225);
+}
